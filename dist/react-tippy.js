@@ -559,6 +559,7 @@ var Tooltip = function (_Component) {
             _this3.tooltipDOM = tooltip;
           },
           title: this.props.title,
+          tabIndex: '0',
           className: this.props.className,
           style: _extends({
             display: 'inline'
