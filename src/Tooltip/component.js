@@ -243,6 +243,7 @@ class Tooltip extends Component {
       <div
         ref={(tooltip) => { this.tooltipDOM = tooltip; }}
         title={this.props.title}
+        tabIndex='0'
         className={this.props.className}
         style={{
           display: 'inline',
